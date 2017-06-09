@@ -1,15 +1,21 @@
 var pingPong = function(number) {
 
-
-  var validNumber = number;
-
-  if (isNaN(validNumber)) {
-    return "Error: Please numbers only";
-  } else {
-    return "valid number";
+  if (isNaN(number) === true) {
+    return "Error: Please enter numbers only";
   }
 
+var newNumber = "";
+
+for (var i = 1; i <= number; i += 1) {
+  if (i % 3 === 0) {
+    return newNumber.concat("Ping");
+  }
+}
+
+
+
 };
+
 
 
 
