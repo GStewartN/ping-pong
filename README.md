@@ -10,7 +10,7 @@ Weekly code review project for Epicodus Intro to Programming class. Create a web
 
 ## gh-pages link
 
-gstewartn.github.io/ping-pong/
+https://gstewartn.github.io/ping-pong/
 
 ## Setup/Installation Requirements
 
