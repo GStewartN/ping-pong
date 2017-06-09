@@ -1,22 +1,22 @@
-Numbers Ping-Pong
+# Numbers Ping-Pong
 
-Webpage using Javascript/Jquery, 06.09.2017
+#### Webpage using Javascript/Jquery, 06.09.2017
 
-By Nathan Stewart
+## By Nathan Stewart
 
-Description
+## Description
 
 Weekly code review project for Epicodus Intro to Programming class. Create a webpage that has user enter a number into a form , then returns the number counted up, with divisors of 3 replaces by ping, divisors of 5 replaced by pong, and divisors of both replaced by pingpong.
 
-gh-pages link
+## gh-pages link
 
+gstewartn.github.io/ping-pong/
 
-
-Setup/Installation Requirements
+## Setup/Installation Requirements
 
 Open above gh-pages link to view webpage.
 
-Specifications
+## Specifications
 
 Can detect non-numeric entries:
   Input: Help
@@ -26,11 +26,11 @@ Can return "Ping" when a number divisible by 3 is entered:
   Input: 6
   Output: Ping
 
-Technologies Used
+## Technologies Used
 
 HTML, Bootstrap, Javascript, Jquery
 
-License
+## License
 
 *MIT License
 
