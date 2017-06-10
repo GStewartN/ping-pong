@@ -18,13 +18,21 @@ Open above gh-pages link to view webpage.
 
 ## Specifications
 
-Can detect non-numeric entries:
+Detect non-numeric entries:
   Input: Help
   Output: Error, please enter numbers only.
-  
-Can return "Ping" when a number divisible by 3 is entered:
+
+Return "Ping" when a number divisible by 3 is entered:
   Input: 6
   Output: Ping
+
+Return "Pong" when number divisible by 5 is entered:
+  Input: 5
+  Output: Pong
+
+Return "PingPong" when number divisible by 3 or 5 is entered:
+  Input: 15
+  Output: PingPong 
 
 ## Technologies Used
 
