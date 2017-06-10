@@ -5,9 +5,11 @@ var pingPong = function(number) {
   }
 
 
-
 for (var i = 1; i <= number; i += 1) {
   $("ul").append("<li>" + i + "</li>");
+  if (i % 3 === 0) {
+    $("ul").append("<li>" + "Ping" + "</li>");
+  } 
 }
 
 };
