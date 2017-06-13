@@ -10,7 +10,7 @@ Weekly code review project for Epicodus Intro to Programming class. Create a web
 
 ## gh-pages link
 
-
+https://gstewartn.github.io/ping-pong/
 
 ## Setup/Installation Requirements
 
@@ -32,7 +32,7 @@ Return "Pong" when number divisible by 5 is entered:
 
 Return "PingPong" when number divisible by 3 or 5 is entered:
   Input: 15
-  Output: PingPong 
+  Output: PingPong
 
 ## Technologies Used
 
