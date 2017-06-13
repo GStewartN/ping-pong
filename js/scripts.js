@@ -21,7 +21,7 @@ var pingPong = function(number) {
 $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
     event.preventDefault();
-    //$("#result").toggle("ul").text(result);
+    $("#result ul").empty();
     var number = parseInt($("input#number").val());
     var result = pingPong(number);
     $("#result").show("ul").text(result);
