@@ -23,12 +23,14 @@ $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
     event.preventDefault();
 
-    $("#result ul").empty();
+    //I have tried for hours to remove old results. I'm stumped. Totally.
+    //.remove, .empty, .reset, Nothing seems to work without completly removing new results as well.
+
     var number = parseInt($("input#number").val());
     var result = pingPong(number);
 
     resultList.forEach(function(number) {
-    $("#result").show("ul").append("<li>" + number + "</li>");
+      $("ul").append("<li>" + number + "</li>");
     });
   });
 });
