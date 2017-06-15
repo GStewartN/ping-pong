@@ -1,6 +1,6 @@
-var resultList = [];
-
 var pingPong = function(number) {
+
+var resultList = [];
 
   if (isNaN(number) === true) {
     return "Error: Please enter numbers only";
@@ -17,20 +17,20 @@ var pingPong = function(number) {
         resultList.push(i);
     }
   }
+  return resultList;
 };
 
 $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
     event.preventDefault();
 
-    //I have tried for hours to remove old results. I'm stumped. Totally.
-    //.remove, .empty, .reset, Nothing seems to work without completly removing new results as well.
-
     var number = parseInt($("input#number").val());
     var result = pingPong(number);
 
-    resultList.forEach(function(number) {
-      $("ul").append("<li>" + number + "</li>");
+    $("ul").empty();
+
+    result.forEach(function(number) {
+      $("ul").append("<li id='result'>" + number + "</li>");
     });
   });
 });
